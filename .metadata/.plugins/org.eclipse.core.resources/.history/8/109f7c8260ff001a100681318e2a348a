@@ -1,0 +1,7 @@
+package org.jsp.hibernateApp;
+
+public class EmployeeDAO {
+	public static void main(String[] args) {
+		
+	}
+}

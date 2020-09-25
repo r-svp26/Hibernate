@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HibernateDemp&apos; to &apos;HbDemo&apos;" description="Rename resource &apos;HibernateDemp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/HibernateDemp" name="HbDemo" stamp="1599053602702" updateReferences="true"/>
+</session>

@@ -1,0 +1,30 @@
+package com.hibernate.jsp.Hibernate_Project;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+/**
+ * Hello world!
+ */
+public class FetchApp {
+
+	public static void main(String[] args) {
+		
+		Student student = new Student();
+		
+		Configuration config = new Configuration().configure().addAnnotatedClass(Student.class);
+
+		@SuppressWarnings("deprecation")
+		SessionFactory sf = config.buildSessionFactory();
+		Session session = sf.openSession();
+
+		Transaction txc = session.beginTransaction();
+		student=(Student)session.get(Student.class, 3);
+		txc.commit();
+		
+		System.out.println(student);
+		
+	}
+}
