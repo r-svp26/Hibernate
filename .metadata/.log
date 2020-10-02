@@ -8067,3 +8067,9 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.recommenders.models.rcp 1 0 2020-10-02 10:04:44.746
 !MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.eclipse.jface.text 2 0 2020-10-02 10:38:14.592
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-10-02 10:38:14.635
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
