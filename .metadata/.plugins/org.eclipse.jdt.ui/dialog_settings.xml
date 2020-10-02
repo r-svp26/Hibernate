@@ -4,7 +4,9 @@
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
 		<item value="false" key="updateTextualMatches"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
@@ -19,6 +21,20 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="NewAnnotationWizardPage">
+		<item value="false" key="add_documented"/>
+		<section name="AddTarget">
+			<item value="false" key="enabled"/>
+			<list key="selectedEnums">
+			</list>
+		</section>
+		<section name="AddRetention">
+			<item value="false" key="enabled"/>
+			<list key="selectedEnums">
+				<item value="CLASS"/>
+			</list>
+		</section>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="526" key="DIALOG_WIDTH"/>

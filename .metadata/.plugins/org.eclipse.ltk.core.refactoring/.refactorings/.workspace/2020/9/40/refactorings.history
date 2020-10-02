@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Hibernate_One-2-One/lib&apos;" deleteContents="false" description="Delete resource &apos;Hibernate_One-2-One/lib&apos;" element1="/Hibernate_One-2-One/lib" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1601440862346"/>
+</session>

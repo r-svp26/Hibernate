@@ -1,0 +1,24 @@
+package org.jsp.One2OneApp;
+
+public class Passport {
+
+	private int passportid;
+	private String passportname;
+
+	public int getPassportid() {
+		return passportid;
+	}
+
+	public void setPassportid(int passportid) {
+		this.passportid = passportid;
+	}
+
+	public String getPassportname() {
+		return passportname;
+	}
+
+	public void setPassportname(String passportname) {
+		this.passportname = passportname;
+	}
+
+}

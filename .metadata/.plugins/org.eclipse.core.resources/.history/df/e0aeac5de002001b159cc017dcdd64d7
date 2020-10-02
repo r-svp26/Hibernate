@@ -1,0 +1,32 @@
+package org.jsp.One2ManyApp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class AppDAO {
+
+	public static void main(String[] args) {
+		
+		Configuration conf=new Configuration().configure();
+		SessionFactory sf=conf.buildSessionFactory();
+		Session session=sf.openSession();
+		
+		Transaction txc=session.beginTransaction();
+		Car c1=new Car();
+		c1.setName("XR-Rapid");
+		c1.setModel("Buggati");
+		Car c2=new Car();
+		c2.setName("AX-Max");
+		
+		
+		Person person=new Person();
+		person.setName("Ritesh Yadav");
+		/* PERSON TO CAR */
+		person.setCars(cars);
+	
+
+		
+	}
+}

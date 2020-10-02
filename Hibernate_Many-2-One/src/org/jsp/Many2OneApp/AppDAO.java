@@ -1,0 +1,43 @@
+package org.jsp.Many2OneApp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class AppDAO {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+
+		Configuration conf = new Configuration().configure();
+		SessionFactory sf = conf.buildSessionFactory();
+		Session session = sf.openSession();
+
+		Transaction txc = session.beginTransaction();
+		Person person = new Person();
+		person.setName("Ritesh Yadav");
+
+		Car c1 = new Car();
+		c1.setName("520D");
+		c1.setModel("Lamborgini");
+		c1.setPerson(person);
+
+		Car c2 = new Car();
+		c2.setName("Phantom");
+		c2.setModel("BMW");
+		c2.setPerson(person);
+
+		Car c3 = new Car();
+		c3.setName("Aventador");
+		c3.setModel("RollsRoyce");
+		c3.setPerson(person);
+
+		session.save(c1);
+		session.save(c2);
+		session.save(c3);
+		txc.commit();
+
+		session.close();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Hibernate_Many-2-One/src/org/jsp/Many2ManyApp&apos;" deleteContents="false" description="Delete resource &apos;Hibernate_Many-2-One/src/org/jsp/Many2ManyApp&apos;" element1="/Hibernate_Many-2-One/src/org/jsp/Many2ManyApp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1601527432897"/>
+</session>

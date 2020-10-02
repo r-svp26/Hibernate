@@ -14,7 +14,6 @@ public class StudentDAO {
 		student.setAddress("Gokul");
 
 		Configuration conf = new Configuration().configure();;
-		
 		SessionFactory sf = conf.buildSessionFactory();
 		Session session = sf.openSession();
 
@@ -23,6 +22,6 @@ public class StudentDAO {
 		txc.commit();
 
 		session.close();
+		
 	}
-
 }

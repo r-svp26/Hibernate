@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Hibernate_One-2-One/src/org/jsp/One2OneApp/AppDao.java&apos; to &apos;AppDAO.java&apos;" description="Rename resource &apos;AppDao.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/jsp/One2OneApp/AppDao.java" name="AppDAO.java" stamp="1601358745813" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+package org.jsp.One2OneApp;
+
+public class AppDAO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

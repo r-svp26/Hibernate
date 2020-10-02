@@ -1,0 +1,5 @@
+package org.jsp.Many2OneApp;
+
+public class Car {
+
+}
